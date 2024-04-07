@@ -61,14 +61,14 @@
 //Зробіть сервіс який отримує тризначне число
 //Поверніть користувачу сумму цих чисел
 
-const num = prompt("Введіть тризначне число");
+// const num = prompt("Введіть тризначне число");
 
-// let num;
-let arr = String(num).split("");
-// console.log(arr);
-let sum = 0;
-for (let digit of arr) {
-  sum += Number(digit);
-}
+// // let num;
+// let arr = String(num).split("");
+// // console.log(arr);
+// let sum = 0;
+// for (let digit of arr) {
+//   sum += Number(digit);
+// }
 
-alert(`Сума числа ${num} дорівнює ${sum}`);
+// alert(`Сума числа ${num} дорівнює ${sum}`);
